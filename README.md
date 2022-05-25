@@ -1,9 +1,6 @@
 #Hello I am self taught web developer and Linux enthusiast
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Maciejka1&theme=dracula)]" />
-</p>
-<p align="center">
   <a href="https://git.io/JJmN9">
     <img src="https://github-readme-stats.vercel.app/api?username=Maciejka1&show_icons=true&theme=radical&line_height=27&include_all_commits=true&count_private=true" />
   </a>
