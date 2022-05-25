@@ -6,8 +6,8 @@
   </a>
 </p
 <p align="center">
-  <a href="https://git.io/JJmN9">
-    <img src="(https://lanyard.cnrad.dev/api/772177682321375262)(https://discord.com/users/772177682321375262)" />
+  <a href="https://discord.com/users/772177682321375262">
+    <img alt="Discord" src="https://lanyard.cnrad.dev/api/772177682321375262?animated=true" />
   </a>
 </p>
 
