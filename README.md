@@ -6,6 +6,7 @@
   </a>
 </p>
 
+Here is my discord if you want to contact me for some odd reason
 <p align="center">
   <a href="https://discord.com/users/772177682321375262">
     <img src="https://lanyard.cnrad.dev/api/772177682321375262?animated=true" />
