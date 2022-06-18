@@ -1,0 +1,291 @@
+Log of Meson test suite run on 2022-06-18T19:32:06.741757
+
+Inherited environment: SHELL=/bin/bash SESSION_MANAGER=local/maciejka:@/tmp/.ICE-unix/1162,unix/maciejka:/tmp/.ICE-unix/1162 COLORTERM=truecolor CSF_MDTVTexturesDirectory=/usr/share/opencascade/resources/Textures XDG_MENU_PREFIX=gnome- CSF_DrawPluginDefaults=/usr/share/opencascade/resources/DrawResources PYTHONHASHSEED=0 CSF_LANGUAGE=us TEXTDOMAINDIR=/usr/share/locale SSH_AUTH_SOCK=/run/user/1000/keyring/ssh CSF_MIGRATION_TYPES=/usr/share/opencascade/resources/StdResource/MigrationSheet.txt DESKTOP_SESSION=gnome LC_MONETARY=pl_PL.UTF-8 CSF_OCCTResourcePath=/usr/share/opencascade/resources CSF_STEPDefaults=/usr/share/opencascade/resources/XSTEPResource DBUS_STARTER_BUS_TYPE=session PWD=/home/maciejka/.cache/yay/gnome-control-center-vrr/src SOURCE_DATE_EPOCH=1655573506 LOGNAME=maciejka XDG_SESSION_DESKTOP=gnome QT_QPA_PLATFORMTHEME=qt5ct XDG_SESSION_TYPE=wayland DRAWHOME=/usr/share/opencascade/resources/DrawResources SYSTEMD_EXEC_PID=1162 CXXFLAGS='-march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wp,-D_GLIBCXX_ASSERTIONS' XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.RBQXN1 CSF_StandardLiteDefaults=/usr/share/opencascade/resources/StdResource MOTD_SHOWN=pam GDM_LANG=en_US.UTF-8 COMMAND_MODE=legacy LDFLAGS=-Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now HOME=/home/maciejka USERNAME=maciejka LANG=en_US.UTF-8 LC_PAPER=pl_PL.UTF-8 XDG_CURRENT_DESKTOP=GNOME VTE_VERSION=6800 WAYLAND_DISPLAY=wayland-0 GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/febe7cd5_0ad6_48c5_9be5_17c31fc89430 CSF_ShadersDirectory=/usr/share/opencascade/resources/Shaders CSF_EXCEPTION_PROMPT=1 CSF_XmlOcafResource=/usr/share/opencascade/resources/XmlOcafResource GNOME_SETUP_DISPLAY=:1 CSF_SHMessage=/usr/share/opencascade/resources/SHMessage XDG_SESSION_CLASS=user TERM=xterm-256color USER=maciejka GNOME_TERMINAL_SERVICE=:1.175 CSF_StandardDefaults=/usr/share/opencascade/resources/StdResource CSF_IGESDefaults=/usr/share/opencascade/resources/XSTEPResource DISPLAY=:0 CSF_XCAFDefaults=/usr/share/opencascade/resources/StdResource SHLVL=2 LC_MEASUREMENT=pl_PL.UTF-8 CSF_PluginDefaults=/usr/share/opencascade/resources/StdResource CSF_TObjMessage=/usr/share/opencascade/resources/TObj DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=fd7da0ff6bb7a510ab4c174062adf798 CASROOT=/usr XDG_RUNTIME_DIR=/run/user/1000 LC_TIME=pl_PL.UTF-8 CSF_XSMessage=/usr/share/opencascade/resources/XSMessage MMGT_CLEAR=1 XDG_DATA_DIRS=/home/maciejka/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/ CHOST=x86_64-pc-linux-gnu PATH=/usr/local/bin:/usr/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl CSF_TObjDefaults=/usr/share/opencascade/resources/StdResource GDMSESSION=gnome CFLAGS='-march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection' DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=fd7da0ff6bb7a510ab4c174062adf798 MAIL=/var/spool/mail/maciejka DRAWDEFAULT=/usr/share/opencascade/resources/DrawResources/DrawDefault LC_NUMERIC=pl_PL.UTF-8 OLDPWD=/home/maciejka/.cache/yay/gnome-control-center-vrr/src TEXTDOMAIN=pacman-scripts _=/usr/bin/meson 
+
+1/5 test-hostname       OK              0.01s
+17:32:06 MALLOC_PERTURB_=147 /home/maciejka/.cache/yay/gnome-control-center-vrr/src/build/tests/common/test-hostname
+----------------------------------- output -----------------------------------
+# random seed: R02Sebba2b59a447eba4af73a5b9ae80fe29
+1..2
+# Start of common tests
+# DEBUG: Input: 'Lennart's PC'
+# DEBUG: 	composed: 'Lennart's PC'
+# DEBUG: 	translit: 'Lennart's PC'
+# DEBUG: 	apostrophes: 'Lennarts PC'
+# DEBUG: 	canon: 'Lennarts-PC'
+# DEBUG: 	leading: 'Lennarts-PC'
+# DEBUG: 	trailing: 'Lennarts-PC'
+# DEBUG: 	duplicate: 'Lennarts-PC'
+# DEBUG: Result for 'Lennart's PC' matches 'lennarts-pc'
+# DEBUG: Input: 'Lennart's PC'
+# DEBUG: 	composed: 'Lennart's PC'
+# DEBUG: 	translit: 'Lennart's PC'
+# DEBUG: 	apostrophes: 'Lennarts PC'
+# DEBUG: 	canon: 'Lennarts-PC'
+# DEBUG: 	leading: 'Lennarts-PC'
+# DEBUG: 	trailing: 'Lennarts-PC'
+# DEBUG: 	duplicate: 'Lennarts-PC'
+# DEBUG: Result for 'Lennart's PC' matches 'Lennarts-PC'
+# DEBUG: Input: 'Müllers Computer'
+# DEBUG: 	composed: 'Müllers Computer'
+# DEBUG: 	translit: 'Mullers Computer'
+# DEBUG: 	apostrophes: 'Mullers Computer'
+# DEBUG: 	canon: 'Mullers-Computer'
+# DEBUG: 	leading: 'Mullers-Computer'
+# DEBUG: 	trailing: 'Mullers-Computer'
+# DEBUG: 	duplicate: 'Mullers-Computer'
+# DEBUG: Result for 'Müllers Computer' matches 'mullers-computer'
+# DEBUG: Input: 'Müllers Computer'
+# DEBUG: 	composed: 'Müllers Computer'
+# DEBUG: 	translit: 'Mullers Computer'
+# DEBUG: 	apostrophes: 'Mullers Computer'
+# DEBUG: 	canon: 'Mullers-Computer'
+# DEBUG: 	leading: 'Mullers-Computer'
+# DEBUG: 	trailing: 'Mullers-Computer'
+# DEBUG: 	duplicate: 'Mullers-Computer'
+# DEBUG: Result for 'Müllers Computer' matches 'Mullers-Computer'
+# DEBUG: Input: 'Voran!'
+# DEBUG: 	composed: 'Voran!'
+# DEBUG: 	translit: 'Voran!'
+# DEBUG: 	apostrophes: 'Voran!'
+# DEBUG: 	canon: 'Voran-'
+# DEBUG: 	leading: 'Voran-'
+# DEBUG: 	trailing: 'Voran'
+# DEBUG: 	duplicate: 'Voran'
+# DEBUG: Result for 'Voran!' matches 'voran'
+# DEBUG: Input: 'Voran!'
+# DEBUG: 	composed: 'Voran!'
+# DEBUG: 	translit: 'Voran!'
+# DEBUG: 	apostrophes: 'Voran!'
+# DEBUG: 	canon: 'Voran-'
+# DEBUG: 	leading: 'Voran-'
+# DEBUG: 	trailing: 'Voran'
+# DEBUG: 	duplicate: 'Voran'
+# DEBUG: Result for 'Voran!' matches 'Voran'
+# DEBUG: Input: 'Es war einmal ein Männlein'
+# DEBUG: 	composed: 'Es war einmal ein Männlein'
+# DEBUG: 	translit: 'Es war einmal ein Mannlein'
+# DEBUG: 	apostrophes: 'Es war einmal ein Mannlein'
+# DEBUG: 	canon: 'Es-war-einmal-ein-Mannlein'
+# DEBUG: 	leading: 'Es-war-einmal-ein-Mannlein'
+# DEBUG: 	trailing: 'Es-war-einmal-ein-Mannlein'
+# DEBUG: 	duplicate: 'Es-war-einmal-ein-Mannlein'
+# DEBUG: Result for 'Es war einmal ein Männlein' matches 'es-war-einmal-ein-mannlein'
+# DEBUG: Input: 'Es war einmal ein Männlein'
+# DEBUG: 	composed: 'Es war einmal ein Männlein'
+# DEBUG: 	translit: 'Es war einmal ein Mannlein'
+# DEBUG: 	apostrophes: 'Es war einmal ein Mannlein'
+# DEBUG: 	canon: 'Es-war-einmal-ein-Mannlein'
+# DEBUG: 	leading: 'Es-war-einmal-ein-Mannlein'
+# DEBUG: 	trailing: 'Es-war-einmal-ein-Mannlein'
+# DEBUG: 	duplicate: 'Es-war-einmal-ein-Mannlein'
+# DEBUG: Result for 'Es war einmal ein Männlein' matches 'Es-war-einmal-ein-Mannlein'
+# DEBUG: Input: 'Jawoll. Ist doch wahr!'
+# DEBUG: 	composed: 'Jawoll. Ist doch wahr!'
+# DEBUG: 	translit: 'Jawoll. Ist doch wahr!'
+# DEBUG: 	apostrophes: 'Jawoll. Ist doch wahr!'
+# DEBUG: 	canon: 'Jawoll--Ist-doch-wahr-'
+# DEBUG: 	leading: 'Jawoll--Ist-doch-wahr-'
+# DEBUG: 	trailing: 'Jawoll--Ist-doch-wahr'
+# DEBUG: 	duplicate: 'Jawoll-Ist-doch-wahr'
+# DEBUG: Result for 'Jawoll. Ist doch wahr!' matches 'jawoll-ist-doch-wahr'
+# DEBUG: Input: 'Jawoll. Ist doch wahr!'
+# DEBUG: 	composed: 'Jawoll. Ist doch wahr!'
+# DEBUG: 	translit: 'Jawoll. Ist doch wahr!'
+# DEBUG: 	apostrophes: 'Jawoll. Ist doch wahr!'
+# DEBUG: 	canon: 'Jawoll--Ist-doch-wahr-'
+# DEBUG: 	leading: 'Jawoll--Ist-doch-wahr-'
+# DEBUG: 	trailing: 'Jawoll--Ist-doch-wahr'
+# DEBUG: 	duplicate: 'Jawoll-Ist-doch-wahr'
+# DEBUG: Result for 'Jawoll. Ist doch wahr!' matches 'Jawoll-Ist-doch-wahr'
+# DEBUG: Input: 'レナート'
+# DEBUG: 	composed: 'レナート'
+# DEBUG: 	translit: '????'
+# DEBUG: 	apostrophes: '????'
+# DEBUG: 	canon: '----'
+# DEBUG: 	leading: ''
+# DEBUG: Result for 'レナート' matches 'localhost'
+# DEBUG: Input: 'レナート'
+# DEBUG: 	composed: 'レナート'
+# DEBUG: 	translit: '????'
+# DEBUG: 	apostrophes: '????'
+# DEBUG: 	canon: '----'
+# DEBUG: 	leading: ''
+# DEBUG: Result for 'レナート' matches 'localhost'
+# DEBUG: Input: '!!!'
+# DEBUG: 	composed: '!!!'
+# DEBUG: 	translit: '!!!'
+# DEBUG: 	apostrophes: '!!!'
+# DEBUG: 	canon: '---'
+# DEBUG: 	leading: ''
+# DEBUG: Result for '!!!' matches 'localhost'
+# DEBUG: Input: '!!!'
+# DEBUG: 	composed: '!!!'
+# DEBUG: 	translit: '!!!'
+# DEBUG: 	apostrophes: '!!!'
+# DEBUG: 	canon: '---'
+# DEBUG: 	leading: ''
+# DEBUG: Result for '!!!' matches 'localhost'
+# DEBUG: Input: '...zack!!! zack!...'
+# DEBUG: 	composed: '...zack!!! zack!...'
+# DEBUG: 	translit: '...zack!!! zack!...'
+# DEBUG: 	apostrophes: '...zack!!! zack!...'
+# DEBUG: 	canon: '---zack----zack----'
+# DEBUG: 	leading: 'zack----zack----'
+# DEBUG: 	trailing: 'zack----zack'
+# DEBUG: 	duplicate: 'zack-zack'
+# DEBUG: Result for '...zack!!! zack!...' matches 'zack-zack'
+# DEBUG: Input: '...zack!!! zack!...'
+# DEBUG: 	composed: '...zack!!! zack!...'
+# DEBUG: 	translit: '...zack!!! zack!...'
+# DEBUG: 	apostrophes: '...zack!!! zack!...'
+# DEBUG: 	canon: '---zack----zack----'
+# DEBUG: 	leading: 'zack----zack----'
+# DEBUG: 	trailing: 'zack----zack'
+# DEBUG: 	duplicate: 'zack-zack'
+# DEBUG: Result for '...zack!!! zack!...' matches 'zack-zack'
+# DEBUG: Input: 'Bãstien's computer... Foo-bar'
+# DEBUG: 	composed: 'Bãstien's computer... Foo-bar'
+# DEBUG: 	translit: 'Bastien's computer... Foo-bar'
+# DEBUG: 	apostrophes: 'Bastiens computer... Foo-bar'
+# DEBUG: 	canon: 'Bastiens-computer----Foo-bar'
+# DEBUG: 	leading: 'Bastiens-computer----Foo-bar'
+# DEBUG: 	trailing: 'Bastiens-computer----Foo-bar'
+# DEBUG: 	duplicate: 'Bastiens-computer-Foo-bar'
+# DEBUG: Result for 'Bãstien's computer... Foo-bar' matches 'bastiens-computer-foo-bar'
+# DEBUG: Input: 'Bãstien's computer... Foo-bar'
+# DEBUG: 	composed: 'Bãstien's computer... Foo-bar'
+# DEBUG: 	translit: 'Bastien's computer... Foo-bar'
+# DEBUG: 	apostrophes: 'Bastiens computer... Foo-bar'
+# DEBUG: 	canon: 'Bastiens-computer----Foo-bar'
+# DEBUG: 	leading: 'Bastiens-computer----Foo-bar'
+# DEBUG: 	trailing: 'Bastiens-computer----Foo-bar'
+# DEBUG: 	duplicate: 'Bastiens-computer-Foo-bar'
+# DEBUG: Result for 'Bãstien's computer... Foo-bar' matches 'Bastiens-computer-Foo-bar'
+# DEBUG: Input: ''
+# DEBUG: 	composed: ''
+# DEBUG: 	translit: ''
+# DEBUG: Result for '' matches 'localhost'
+# DEBUG: Input: ''
+# DEBUG: 	composed: ''
+# DEBUG: 	translit: ''
+# DEBUG: Result for '' matches 'localhost'
+ok 1 /common/hostname
+ok 2 /common/ssid
+# End of common tests
+------------------------------------------------------------------------------
+
+2/5 test-info-cleanup   OK              0.00s
+17:32:06 MALLOC_PERTURB_=64 /home/maciejka/.cache/yay/gnome-control-center-vrr/src/build/tests/info/test-info-cleanup
+----------------------------------- output -----------------------------------
+# random seed: R02Sbc6a7dd73a935adc1680eb1871fe68e1
+1..1
+# Start of info tests
+# DEBUG: Result for 'Intel(R) Core(TM) i5-4590T CPU @ 2.00GHz' matches 'Intel® Core™ i5-4590T'
+# DEBUG: Result for 'Intel(R) Ivybridge Mobile ' matches 'Intel® Ivybridge Mobile'
+# DEBUG: Result for 'Intel(R)  Ivybridge Mobile ' matches 'Intel® Ivybridge Mobile'
+# DEBUG: Result for 'Gallium 0.4 on AMD KAVERI' matches 'AMD KAVERI'
+# DEBUG: Result for 'AMD KAVERI (DRM 2.48.0 / 4.9.0-0.rc4.git2.2.fc26.x86_64, LLVM3)' matches 'AMD KAVERI'
+# DEBUG: Result for 'AMD KAVERI (DRM 2.48.0 / 4.9.0-0.rc4.git2.2.fc26.x86_64, LLVM3' matches 'AMD KAVERI'
+# DEBUG: Result for 'Gallium 0.4 on AMD KAVERI (DRM 2.48.0 / 4.9.0-0.rc4.git2.2.fc26.x86_64, LLVM3)' matches 'AMD KAVERI'
+# DEBUG: Result for 'Gallium 0.4 on AMD KAVERI (DRM 2.48.0 / 4.9.0-0.rc4.git2.2.fc26.x86_64, LLVM3' matches 'AMD KAVERI'
+# DEBUG: Result for 'AMD Ryzen Threadripper 1950X 16-Core Processor' matches 'AMD Ryzen™ Threadripper™ 1950X'
+# DEBUG: Result for 'AMD Radeon RX 580 Series (POLARIS10, DRM 3.42.0, 5.15.13-1-ck-generic-v3, LLVM 13.0.0)' matches 'AMD Radeon™ RX 580 Series'
+# DEBUG: Result for 'AMD EPYC 7251 8-Core Processor' matches 'AMD EPYC™ 7251'
+# DEBUG: Result for 'Gallium 0.4 on SVGA3D' matches 'SVGA3D'
+# DEBUG: Result for 'Gallium 0.4 on llvmpipe (LLVM 3.4, 128 bits)' matches 'Software Rendering'
+# DEBUG: Result for 'llvmpipe (LLVM 12.0.1, 256 bits)' matches 'Software Rendering'
+# DEBUG: Result for 'AMD FX(tm)-8350 Eight-Core Processor' matches 'AMD FX™-8350'
+# DEBUG: Result for 'AMD Athlon(tm) II X3 435 Processor' matches 'AMD Athlon™ II X3 435'
+# DEBUG: Result for 'NVIDIA GeForce GT 710/PCIe/SSE2' matches 'NVIDIA GeForce GT 710'
+# DEBUG: Result for 'Mesa DRI Intel(R) 965GM x86/MMX/SSE2' matches 'Intel® 965GM'
+# DEBUG: Result for 'NVIDIA GeForce RTX 3090/PCIe/SSE2' matches 'NVIDIA GeForce RTX™ 3090'
+ok 1 /info/info
+# End of info tests
+------------------------------------------------------------------------------
+
+3/5 test-shift          OK              0.02s
+17:32:06 MALLOC_PERTURB_=80 /home/maciejka/.cache/yay/gnome-control-center-vrr/src/build/tests/printers/test-shift
+----------------------------------- output -----------------------------------
+# random seed: R02Sb6a8d0ec0972e01328edaf15cdf17cd0
+1..1
+# Start of printers tests
+# DEBUG: Result for 'Canon' matches 'anon'
+# DEBUG: Result for '-JetDirect' matches 'JetDirect'
+# DEBUG: Result for 'localhost' matches 'ocalhost'
+# DEBUG: Result for 'Šípková Růženka' matches 'ípková Růženka'
+# DEBUG: Result for ' space' matches 'space'
+# DEBUG: Result for '[][' matches ']['
+# DEBUG: Result for '…...' matches '...'
+ok 1 /printers/shift
+# End of printers tests
+------------------------------------------------------------------------------
+
+4/5 test-wif-panel-text OK              0.09s
+17:32:06 BUILDDIR=/home/maciejka/.cache/yay/gnome-control-center-vrr/src/build/tests/network NO_AT_BRIDGE=1 G_MESSAGES_DEBUG=all MALLOC_PERTURB_=216 TOP_BUILDDIR=/home/maciejka/.cache/yay/gnome-control-center-vrr/src/build /home/maciejka/.cache/yay/gnome-control-center-vrr/src/build/tests/network/test-wifi-panel-text
+----------------------------------- output -----------------------------------
+# random seed: R02Sf5f4867b8330a22bcf023ccb3e39dd13
+1..1
+# Start of wifi tests
+ok 1 /wifi/escape-qr-string
+# End of wifi tests
+------------------------------------------------------------------------------
+
+5/5 test-network-panel  FAIL            1.01s   exit status 1
+17:32:06 BUILDDIR=/home/maciejka/.cache/yay/gnome-control-center-vrr/src/build/tests/network NO_AT_BRIDGE=1 G_MESSAGES_DEBUG=all MALLOC_PERTURB_=43 TOP_BUILDDIR=/home/maciejka/.cache/yay/gnome-control-center-vrr/src/build /usr/bin/python /home/maciejka/.cache/yay/gnome-control-center-vrr/src/gnome-control-center-vrr/tests/network/test-network-panel.py
+----------------------------------- output -----------------------------------
+stdout:
+
+Execution of GTest executable to query the tests returned non-zero exit code!
+Error generating separate test funcs, will call binary once.
+test_all (__main__.PanelTestCase) ... # random seed: R02S6e7fc05746a1288da5e4d99dab60bab7
+# GVFS-DEBUG: org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
+# 
+(/home/maciejka/.cache/yay/gnome-control-center-vrr/src/build/tests/network/test-network-panel:74989): GVFS-DEBUG: 19:32:07.129: org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
+
+# GLib-GIO-DEBUG: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+(/home/maciejka/.cache/yay/gnome-control-center-vrr/src/build/tests/network/test-network-panel:74989): GLib-GIO-DEBUG: 19:32:07.130: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+# Adwaita-DEBUG: Portal not found: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.portal.Desktop was not provided by any .service files
+(/home/maciejka/.cache/yay/gnome-control-center-vrr/src/build/tests/network/test-network-panel:74989): Adwaita-DEBUG: 19:32:07.141: Portal not found: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.portal.Desktop was not provided by any .service files
+# Adwaita-DEBUG: Portal not found: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.portal.Desktop was not provided by any .service files
+(/home/maciejka/.cache/yay/gnome-control-center-vrr/src/build/tests/network/test-network-panel:74989): Adwaita-DEBUG: 19:32:07.141: Portal not found: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.portal.Desktop was not provided by any .service files
+# Adwaita-DEBUG: Portal not found: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.portal.Desktop was not provided by any .service files
+(/home/maciejka/.cache/yay/gnome-control-center-vrr/src/build/tests/network/test-network-panel:74989): Adwaita-DEBUG: 19:32:07.141: Portal not found: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.portal.Desktop was not provided by any .service files
+# GLib-GIO-DEBUG: _g_io_module_get_default: Found default implementation memory (GMemorySettingsBackend) for ‘gsettings-backend’
+(/home/maciejka/.cache/yay/gnome-control-center-vrr/src/build/tests/network/test-network-panel:74989): GLib-GIO-DEBUG: 19:32:07.141: _g_io_module_get_default: Found default implementation memory (GMemorySettingsBackend) for ‘gsettings-backend’
+Bail out! Adwaita-FATAL-WARNING: Using GtkSettings:gtk-application-prefer-dark-theme with libadwaita is unsupported. Please use AdwStyleManager:color-scheme instead.
+ERROR
+
+======================================================================
+ERROR: test_all (__main__.PanelTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/maciejka/.cache/yay/gnome-control-center-vrr/src/gnome-control-center-vrr/tests/network/../shared/gtest.py", line 117, in _gtest_all
+    subprocess.check_call([self.g_test_exe], timeout=self.g_test_all_timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 369, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/home/maciejka/.cache/yay/gnome-control-center-vrr/src/build/tests/network/test-network-panel']' died with <Signals.SIGTRAP: 5>.
+
+----------------------------------------------------------------------
+Ran 1 test in 0.731s
+
+FAILED (errors=1)
+stderr:
+
+(/home/maciejka/.cache/yay/gnome-control-center-vrr/src/build/tests/network/test-network-panel:74965): Adwaita-WARNING **: 19:32:06.834: Using GtkSettings:gtk-application-prefer-dark-theme with libadwaita is unsupported. Please use AdwStyleManager:color-scheme instead.
+
+(/home/maciejka/.cache/yay/gnome-control-center-vrr/src/build/tests/network/test-network-panel:74989): Adwaita-WARNING **: 19:32:07.141: Using GtkSettings:gtk-application-prefer-dark-theme with libadwaita is unsupported. Please use AdwStyleManager:color-scheme instead.
+------------------------------------------------------------------------------
+
+
+Summary of Failures:
+
+5/5 test-network-panel  FAIL            1.01s   exit status 1
+
+
+Ok:                 4   
+Expected Fail:      0   
+Fail:               1   
+Unexpected Pass:    0   
+Skipped:            0   
+Timeout:            0   
